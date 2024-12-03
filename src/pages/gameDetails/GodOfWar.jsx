@@ -13,7 +13,7 @@ const GodOfWar = () => {
         <meta property="og:title" content="God of War Ragnarök - Kratos and Atreus' Journey in Norse Mythology" />
         <meta property="og:description" content="Experience the thrilling journey of Kratos and Atreus as they battle gods and monsters in a stunning Norse mythology world. Prevent Ragnarök in this epic action RPG." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/god-of-war-ragnarok" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/god-of-war-ragnarok" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">God of War Ragnarök</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">

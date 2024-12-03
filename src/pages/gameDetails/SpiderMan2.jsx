@@ -25,7 +25,7 @@ const SpiderMan2 = () => {
           content="Resident Evil 2 brings back the horror of Raccoon City. Play as Leon and Claire to uncover the secrets of the Umbrella Corporation while surviving a zombie apocalypse."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/resident-evil-2" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/spiderman-2" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Spider-Man 2</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">

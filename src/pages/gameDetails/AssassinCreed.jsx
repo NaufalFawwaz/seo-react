@@ -13,7 +13,7 @@ const AssassinCreed = () => {
         <meta property="og:title" content="Assassin's Creed Mirage" />
         <meta property="og:description" content="Discover the story of Basim in Assassin's Creed Mirage. Explore 9th-century Baghdad and embark on an adventure filled with stealth, action, and a quest for truth." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/assassins-creed-mirage" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/assassins-creed-mirage" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center mb-2">Assassin's Creed Mirage</h1>

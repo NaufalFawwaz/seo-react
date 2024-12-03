@@ -13,7 +13,7 @@ const DevilMy = () => {
         <meta property="og:title" content="Devil May Cry 5 - Epic Hack and Slash Action with Nero, Dante, and V" />
         <meta property="og:description" content="Join Nero, Dante, and V in Devil May Cry 5 as they face powerful demons in high-speed, hack-and-slash combat. A visually stunning action game from the Devil May Cry series." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/devil-may-cry-5" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/devil-my-cry-5" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Devil May Cry 5</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">

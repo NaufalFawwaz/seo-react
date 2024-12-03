@@ -14,13 +14,13 @@ const StructuredData = () => (
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "Filkom Game Corner",
+          "name": "Filkom UB Game Corner",
           "description": "Filkom Game Corner menawarkan pengalaman bermain game yang seru dengan koleksi game terbaru dan fasilitas gaming lengkap.",
           "publisher": {
             "@type": "Organization",
             "name": "FILKOM UB"
           },
-          "url": "https://filkom-ub-game-corner-next.vercel.app/",
+          "url": "https://filkom-ub-game-corner-react.vercel.app/",
         }),
       }}
     />
@@ -153,11 +153,11 @@ const Home = () => {
       <Helmet>
         <title>Filkom's Game Corner | Mainkan Game Terbaru dan Seru!</title>
         <meta name="description" content="Rasakan pengalaman bermain game yang seru di Filkom's Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru." />
-        <meta name="keywords" content="Filkom UB Game Corner, Game Corner, gaming console, games, permainan, mahasiswa, gaming, tempat bermain, BRI" />
+        <meta name="keywords" content="Filkom UB Game Corner, Filkom Game Corner, Game Corner, gaming console, games, permainan, mahasiswa, gaming, tempat bermain, BRI" />
         <meta property="og:title" content="Filkom's Game Corner | Mainkan Game Terbaru dan Seru!" />
         <meta property="og:description" content="Nikmati koleksi game terbaru dan fasilitas gaming terbaik di Filkom's Game Corner." />
         <meta property="og:image" content={background} />
-        <meta property="og:url" content="https://filkom.ub.ac.id/game-corner" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/" />
         <meta name="twitter:title" content="Filkom's Game Corner | Mainkan Game Terbaru dan Seru!" />
         <meta name="twitter:description" content="Mainkan game terbaru dan nikmati fasilitas gaming terbaik di Filkom's Game Corner." />
         <meta name="twitter:image" content={background} />

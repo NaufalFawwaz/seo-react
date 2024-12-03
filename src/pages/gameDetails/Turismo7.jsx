@@ -25,7 +25,7 @@ const Turismo7 = () => {
           content="Gran Turismo 7 offers the most realistic driving experience on PS5, with a wide range of cars, tracks, and racing modes. Perfect for both simulation and arcade racing fans."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/gran-turismo-7" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/gran-turismo-7" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Gran Turismo 7</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">

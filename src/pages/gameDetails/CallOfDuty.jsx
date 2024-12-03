@@ -13,7 +13,7 @@ const CallOfDuty = () => {
         <meta property="og:title" content="Call of Duty: Modern Warfare III - The Epic Conclusion" />
         <meta property="og:description" content="Experience the epic conclusion of the Modern Warfare trilogy. Join Soap MacTavish and Captain Price in their final mission to stop global terrorism." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/call-of-duty-modern-warfare-3" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/call-of-duty-modern-warfare-III" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center mb-2">Call of Duty: Modern Warfare III</h1>

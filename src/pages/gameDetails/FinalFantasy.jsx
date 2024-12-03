@@ -13,7 +13,7 @@ const FinalFantasy = () => {
         <meta property="og:title" content="Final Fantasy 7 Rebirth - The Epic Sequel to Final Fantasy 7 Remake" />
         <meta property="og:description" content="Join Cloud Strife and his companions in Final Fantasy 7 Rebirth, the thrilling sequel to Final Fantasy 7 Remake. Explore an open world and battle powerful foes in this action-packed RPG." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/final-fantasy-7-rebirth" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/final-fantasy-VII" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Final Fantasy 7 Rebirth</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">

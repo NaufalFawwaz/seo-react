@@ -13,7 +13,7 @@ const AwayOut = () => {
         <meta property="og:title" content="A Way Out - Co-op Escape Adventure" />
         <meta property="og:description" content="Join Leo and Vincent as they attempt to escape prison and uncover a world of challenges in this unique co-op action-adventure game. Only through cooperation can they reach freedom." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/a-way-out" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/a-way-out" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center mb-2">A Way Out</h1>
