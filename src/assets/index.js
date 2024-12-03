@@ -18,6 +18,7 @@ import cod from './cod.jpg'
 import watchdog from './watchdog.jpg'
 import finalfantasy from './finalfantasy.jpg'
 import away from './away.jpg'
+import logo2 from './logo2.svg'
 
 export {
     logo,
@@ -40,4 +41,5 @@ export {
     watchdog,
     finalfantasy,
     away,
+    logo2
 }
