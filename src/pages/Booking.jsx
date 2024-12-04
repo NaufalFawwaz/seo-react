@@ -138,7 +138,7 @@ const Booking = () => {
         <meta property="og:title" content="Game Console Booking - Online Booking System" />
         <meta property="og:description" content="Book your favorite game console online. Secure your time slots and enjoy uninterrupted gaming." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://yourwebsite.com/booking" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/book+" />
       </Helmet>
 
       <h2 className="text-4xl font-bold text-blue-600 mb-8 text-center">Game Console Booking</h2>
