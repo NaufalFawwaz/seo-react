@@ -152,7 +152,6 @@ const Home = () => {
       <StructuredData />
       <Helmet>
         <title>Filkom's Game Corner | Mainkan Game Terbaru dan Seru!</title>
-        <meta name="google-site-verification" content="UuVx5ZjVaS5_tMI_usURo5HGeAlOGH82bALrzZAVXSA" />
         <meta name="description" content="Rasakan pengalaman bermain game yang seru di Filkom's Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru." />
         <meta name="keywords" content="Filkom UB Game Corner, Filkom Game Corner, Game Corner, gaming console, games, permainan, mahasiswa, gaming, tempat bermain, BRI" />
         <meta property="og:title" content="Filkom Game Corner | Mainkan Game Terbaru dan Seru!" />
