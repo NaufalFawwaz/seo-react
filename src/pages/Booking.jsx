@@ -45,31 +45,10 @@ const Booking = () => {
     try {
       const docRef = await addDoc(collection(db, "bookings"), data);
       console.log("Document written with ID: ", docRef.id);
-      return docRef.id;
     } catch (error) {
       console.error("Error adding document: ", error);
-      throw error;
     }
   };
-
-  const fetchBookedSlots = async () => {
-    try {
-      const querySnapshot = await getDocs(collection(db, "bookings"));
-      const slots = querySnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-      setBookedSlots(slots);
-    } catch (error) {
-      console.error("Error fetching booked slots: ", error);
-      setAlertMessage("Gagal mengambil data booking.");
-      setAlertType("error");
-    }
-  };
-
-  useEffect(() => {
-    fetchBookedSlots();
-  }, []);
 
   const handleBooking = async (e) => {
     e.preventDefault();
@@ -92,15 +71,9 @@ const Booking = () => {
         time: selectedTime,
       };
 
-      const bookingId = await saveBookingToFirestore(bookingData);
+      await saveBookingToFirestore(bookingData);
+      setBookedSlots([...bookedSlots, { ...bookingData, ktmPreview }]);
 
-      setBookedSlots([...bookedSlots, { id: bookingId, ...bookingData }]);
-
-      // Reset form
-      setName("");
-      setNim("");
-      setKtm(null);
-      setKtmPreview("");
       setSelectedConsole("");
       setSelectedDate("");
       setSelectedTime("");
@@ -121,8 +94,6 @@ const Booking = () => {
       return;
     }
     setIsConfirmed(true);
-    setAlertMessage("");
-    setAlertType("");
   };
 
   const handleKtmUpload = (e) => {
@@ -130,25 +101,26 @@ const Booking = () => {
     if (file && (file.type === "image/png" || file.type === "image/jpeg" || file.type === "image/jpg")) {
       setKtm(file);
       setKtmPreview(URL.createObjectURL(file));
-      setAlertMessage("");
-      setAlertType("");
     } else {
       setAlertMessage("Mohon unggah file gambar dengan format PNG atau JPG.");
       setAlertType("error");
-      setKtm(null);
-      setKtmPreview("");
       e.target.value = null;
     }
   };
 
+  const fetchBookedSlots = async () => {
+    const querySnapshot = await getDocs(collection(db, "bookings"));
+    const slots = querySnapshot.docs.map((doc) => doc.data());
+    setBookedSlots(slots);
+  };
+
+  useEffect(() => {
+    fetchBookedSlots();
+  }, []);
+
   const handleBookingClick = (slot) => {
-    if (slot && slot.name && slot.nim && slot.console && slot.date && slot.time) {
-      setSelectedBooking(slot);
-      setIsModalOpen(true);
-    } else {
-      setAlertMessage("Data booking tidak lengkap.");
-      setAlertType("error");
-    }
+    setSelectedBooking(slot);
+    setIsModalOpen(true);
   };
 
   const closeModal = () => {
@@ -160,33 +132,19 @@ const Booking = () => {
     <div className="flex flex-col items-center p-8 bg-gray-50 min-h-screen">
       <Helmet>
         <title>Game Console Booking - Online Booking System</title>
-        <meta
-          name="description"
-          content="Book your favorite game console (PC ROG, PS5, Xbox) online. Choose your time slot and date with ease. Secure your booking today!"
-        />
-        <meta
-          name="keywords"
-          content="game console booking, Filkom UB Game Corner, online booking, PS5, Xbox, PC ROG, game reservation, booking system, gaming"
-        />
+        <meta name="description" content="Book your favorite game console (PC ROG, PS5, Xbox) online. Choose your time slot and date with ease. Secure your booking today!" />
+        <meta name="keywords" content="game console booking, Filkom UB Game Corner, online booking, PS5, Xbox, PC ROG, game reservation, booking system, gaming" />
         <meta name="author" content="Your Company Name" />
         <meta property="og:title" content="Game Console Booking - Online Booking System" />
-        <meta
-          property="og:description"
-          content="Book your favorite game console online. Secure your time slots and enjoy uninterrupted gaming."
-        />
+        <meta property="og:description" content="Book your favorite game console online. Secure your time slots and enjoy uninterrupted gaming." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta
-          property="og:url"
-          content="https://filkom-ub-game-corner-react.vercel.app/book+"
-        />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/book+" />
       </Helmet>
 
       <h2 className="text-4xl font-bold text-blue-600 mb-8 text-center">Game Console Booking</h2>
       {alertMessage && (
         <div
-          className={`w-full max-w-md p-4 rounded-lg mb-6 text-center ${
-            alertType === "success" ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"
-          }`}
+          className={`w-full max-w-md p-4 rounded-lg mb-6 text-center ${alertType === "success" ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"}`}
         >
           {alertMessage}
         </div>
@@ -285,9 +243,7 @@ const Booking = () => {
 
           <button
             type="submit"
-            className={`w-full ${
-              isSlotBooked ? "bg-gray-500 cursor-not-allowed" : "bg-blue-500"
-            } text-white font-bold py-2 px-4 rounded-lg`}
+            className={`w-full ${isSlotBooked ? "bg-gray-500" : "bg-blue-500"} text-white font-bold py-2 px-4 rounded-lg`}
             disabled={isSlotBooked}
           >
             {isSlotBooked ? "Slot Sudah Dipesan" : "Pesan Sekarang"}
@@ -298,71 +254,43 @@ const Booking = () => {
       {/* Booking History */}
       <div className="mt-8 w-full flex flex-wrap justify-center gap-6">
         <h3 className="text-2xl font-semibold text-center w-full mb-4">Booking History</h3>
-        {bookedSlots.map((slot) => (
+        {bookedSlots.map((slot, index) => (
           <div
-            key={slot.id}
+            key={index}
             className="bg-white shadow-md rounded-lg p-4 w-64 flex-shrink-0 cursor-pointer"
             onClick={() => handleBookingClick(slot)}
           >
-            <p>
-              <strong>Nama:</strong> {slot.name}
-            </p>
-            <p>
-              <strong>NIM:</strong> {slot.nim}
-            </p>
-            <p>
-              <strong>Console:</strong> {slot.console}
-            </p>
-            <p>
-              <strong>Tanggal:</strong> {slot.date}
-            </p>
-            <p>
-              <strong>Waktu:</strong> {slot.time}
-            </p>
+            <p><strong>Nama:</strong> {slot.name}</p>
+            <p><strong>NIM:</strong> {slot.nim}</p>
+            <p><strong>Console:</strong> {slot.console}</p>
+            <p><strong>Tanggal:</strong> {slot.date}</p>
+            <p><strong>Waktu:</strong> {slot.time}</p>
             {slot.ktmUrl && (
               <img
                 src={slot.ktmUrl}
                 alt="KTM"
                 className="mt-4 max-w-full h-auto rounded-lg object-contain"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = "https://via.placeholder.com/150"; 
-                }}
               />
             )}
           </div>
         ))}
       </div>
 
-      {/* Modal untuk detail booking */}
+      {/* Modal for booking details */}
       {isModalOpen && selectedBooking && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-          <div className="bg-white p-6 rounded-lg w-11/12 max-w-md relative">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white p-6 rounded-lg w-1/2 max-w-md">
             <h3 className="text-2xl font-semibold mb-4">Booking Details</h3>
-            <p>
-              <strong>Nama:</strong> {selectedBooking.name}
-            </p>
-            <p>
-              <strong>NIM:</strong> {selectedBooking.nim}
-            </p>
-            <p>
-              <strong>Console:</strong> {selectedBooking.console}
-            </p>
-            <p>
-              <strong>Tanggal:</strong> {selectedBooking.date}
-            </p>
-            <p>
-              <strong>Waktu:</strong> {selectedBooking.time}
-            </p>
+            <p><strong>Nama:</strong> {selectedBooking.name}</p>
+            <p><strong>NIM:</strong> {selectedBooking.nim}</p>
+            <p><strong>Console:</strong> {selectedBooking.console}</p>
+            <p><strong>Tanggal:</strong> {selectedBooking.date}</p>
+            <p><strong>Waktu:</strong> {selectedBooking.time}</p>
             {selectedBooking.ktmUrl && (
               <img
                 src={selectedBooking.ktmUrl}
                 alt="KTM"
                 className="mt-4 max-w-full h-auto rounded-lg object-contain"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = "https://via.placeholder.com/150"; 
-                }}
               />
             )}
             <div className="mt-4 text-center">
