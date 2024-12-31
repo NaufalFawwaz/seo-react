@@ -34,7 +34,7 @@ const GodOfWar = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed">
-            <span className="font-medium">*God of War Ragnarök*</span> adalah game aksi-petualangan
+            <span className="font-medium">God of War Ragnarök</span> adalah game aksi-petualangan
             yang mengikuti perjalanan Kratos dan Atreus di dunia mitologi Nordik. Dalam game ini,
             mereka berdua menghadapi dewa-dewa dan makhluk legendaris dari berbagai dunia, sambil
             berusaha menghindari kehancuran yang diprediksi dalam ramalan Ragnarök. Dengan gameplay yang
@@ -45,7 +45,7 @@ const GodOfWar = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed">
-            Dalam *God of War Ragnarök*, Kratos dan Atreus melanjutkan perjalanan mereka yang penuh
+            Dalam God of War Ragnarök, Kratos dan Atreus melanjutkan perjalanan mereka yang penuh
             tantangan. Setelah peristiwa dari game sebelumnya, mereka kini menghadapi ancaman besar yang
             datang dari dunia Nordik, termasuk pertempuran dengan dewa-dewa dan makhluk mitologi yang
             legendaris. Kratos yang masih berjuang dengan takdirnya sebagai dewa perang, kini harus
@@ -57,7 +57,6 @@ const GodOfWar = () => {
           </p>
         </div>
 
-        {/* Gambar dan Informasi Tambahan */}
         <div className="flex flex-col items-center">
           <img
             src={gow}

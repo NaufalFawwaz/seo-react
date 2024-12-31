@@ -43,7 +43,7 @@ export const Banner = ({ style }) => {
         Rasakan pengalaman bermain game yang seru di Filkom's Game Corner! Mainkan koleksi game terbaru kami, atau tantang temanmu dalam pertandingan seru.
       </p>
       <NavLink
-        to="/info"
+        to="/games"
         className="bg-primary3 text-xl rounded-lg font-semibold text-primary1 py-4 text-center w-[350px] mt-10 hover:bg-[#1B9BA2] hover:text-white transition duration-300"
       >
         Explore Filkom's Game Collection

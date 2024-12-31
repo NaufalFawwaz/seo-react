@@ -25,7 +25,7 @@ const Tekken8 = () => {
           content="Resident Evil 2 brings back the horror of Raccoon City. Play as Leon and Claire to uncover the secrets of the Umbrella Corporation while surviving a zombie apocalypse."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/tekken8" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/tekken8" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Tekken 8</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">
@@ -45,7 +45,7 @@ const Tekken8 = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Tekken 8*</span> adalah game fighting legendaris yang kembali dengan karakter-karakter baru
+            <span className="font-medium">Tekken 8</span> adalah game fighting legendaris yang kembali dengan karakter-karakter baru
             dan mekanik pertempuran yang lebih seru. Game ini menghadirkan grafis yang lebih memukau, gameplay yang lebih dinamis,
             serta kecepatan bertarung yang meningkat. Setiap karakter memiliki keunikan dalam teknik dan gaya bertarungnya, memberi
             pemain banyak pilihan strategi untuk meraih kemenangan. Sistem pertarungan baru yang fluid memungkinkan pemain untuk
@@ -55,7 +55,7 @@ const Tekken8 = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Tekken 8*</span>, pemain akan menghadapi berbagai karakter ikonik dari seri sebelumnya
+            Dalam <span className="font-medium">Tekken 8</span>, pemain akan menghadapi berbagai karakter ikonik dari seri sebelumnya
             serta wajah baru yang turut memperkaya dunia Tekken. Gameplay kali ini lebih mengutamakan kecepatan dan taktik dalam setiap
             pertarungan, di mana gerakan yang lebih fluid dan reaksi cepat sangat menentukan hasil akhir. Karakter-karakter baru dan
             lama akan bergabung dalam pertarungan yang semakin sengit, menghadirkan tantangan bagi pemain yang ingin menguasai setiap

@@ -10,6 +10,21 @@ import CallOfDuty from './CallOfDuty.jsx'
 import DevilMy from './DevilMy.jsx'
 import FinalFantasy from './FinalFantasy.jsx'
 import WatchDogs from './WatchDogs.jsx'
+import EldenRing from './EldenRing.jsx'
+import Fifa23 from './Fifa23.jsx'
+import Ghost from './Ghost.jsx'
+import GOW from './GOW.jsx'
+import GTAV from './GTAV.jsx'
+import ItTakesTwo from './ItTakesTwo.jsx'
+import MilesMorales from './MilesMorales.jsx'
+import Stray from './Stray.jsx'
+import ModernW2 from './ModernW2.jsx'
+import NBA from './NBA.jsx'
+import Efootball from './Efootball.jsx'
+import StreetFight6 from './StreetFight6.jsx'
+import Uncharted4 from './Uncharted4.jsx'
+import UntilDawn from './UntilDawn.jsx'
+import AssassinValhalla from './AssassinValhalla.jsx'
 
 export {
     AssassinCreed,
@@ -24,4 +39,19 @@ export {
     DevilMy,
     FinalFantasy,
     WatchDogs,
+    EldenRing,
+    Fifa23,
+    Ghost,
+    GOW,
+    GTAV,
+    ItTakesTwo,
+    MilesMorales,
+    Stray,
+    ModernW2,
+    NBA,
+    Efootball,
+    StreetFight6,
+    Uncharted4,
+    UntilDawn,
+    AssassinValhalla
 }

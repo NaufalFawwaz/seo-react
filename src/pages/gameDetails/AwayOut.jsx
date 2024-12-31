@@ -13,7 +13,7 @@ const AwayOut = () => {
         <meta property="og:title" content="A Way Out - Co-op Escape Adventure" />
         <meta property="og:description" content="Join Leo and Vincent as they attempt to escape prison and uncover a world of challenges in this unique co-op action-adventure game. Only through cooperation can they reach freedom." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/a-way-out" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/a-way-out" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center mb-2">A Way Out</h1>
@@ -34,7 +34,7 @@ const AwayOut = () => {
               <FaFeatherAlt className="text-xl" /> Game Description
             </h2>
             <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-              <span className="font-medium">*A Way Out*</span> adalah permainan petualangan kooperatif yang memungkinkan dua
+              <span className="font-medium">A Way Out</span> adalah permainan petualangan kooperatif yang memungkinkan dua
               pemain bekerja sama untuk melarikan diri dari penjara dan mengungkap misteri di luar tembok penjara. Dengan
               mekanik permainan yang dirancang untuk pengalaman kooperatif, game ini menawarkan pengalaman cerita yang
               mendalam dan penuh ketegangan. Pemain harus memanfaatkan kekuatan unik dari setiap karakter untuk menyelesaikan
@@ -45,7 +45,7 @@ const AwayOut = () => {
               <FaFeatherAlt className="text-xl" /> Synopsis
             </h2>
             <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-              Dalam <span className="font-medium">*A Way Out*</span>, pemain mengikuti kisah dua narapidana, Leo dan
+              Dalam <span className="font-medium">A Way Out</span>, pemain mengikuti kisah dua narapidana, Leo dan
               Vincent, yang harus bekerja sama untuk melarikan diri dari penjara dan menghadapi dunia luar yang penuh
               tantangan. Setiap keputusan mereka akan mempengaruhi jalan cerita, dan hanya dengan kerja sama mereka dapat
               mencapai kebebasan. Selain berjuang untuk keluar dari penjara, mereka juga harus menghadapi berbagai ancaman

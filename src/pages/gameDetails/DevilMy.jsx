@@ -13,7 +13,7 @@ const DevilMy = () => {
         <meta property="og:title" content="Devil May Cry 5 - Epic Hack and Slash Action with Nero, Dante, and V" />
         <meta property="og:description" content="Join Nero, Dante, and V in Devil May Cry 5 as they face powerful demons in high-speed, hack-and-slash combat. A visually stunning action game from the Devil May Cry series." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/devil-my-cry-5" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/devil-my-cry-5" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Devil May Cry 5</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">
@@ -33,7 +33,7 @@ const DevilMy = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Devil May Cry 5*</span> adalah game aksi hack-and-slash yang menampilkan
+            <span className="font-medium">Devil May Cry 5</span> adalah game aksi hack-and-slash yang menampilkan
             karakter utama Nero, Dante, dan V dalam perjuangan mereka melawan iblis dan ancaman yang ada. Dengan
             grafis yang memukau dan gameplay yang cepat, game ini menawarkan aksi luar biasa dan tantangan yang
             menghibur. Setiap karakter memiliki gaya bertarung unik yang memberikan pengalaman bermain yang variatif,
@@ -43,7 +43,7 @@ const DevilMy = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Devil May Cry 5*</span>, pemain mengikuti kisah tiga karakter utama:
+            Dalam <span className="font-medium">Devil May Cry 5</span>, pemain mengikuti kisah tiga karakter utama:
             Nero, Dante, dan V. Ketiganya berjuang untuk menghentikan kekuatan jahat yang mengancam dunia. Dengan
             elemen hack-and-slash yang sangat dinamis dan cerita yang mendalam, game ini menonjolkan pertarungan
             cepat, grafis yang luar biasa, dan pengalaman gameplay yang sangat memuaskan. Para pemain akan mengungkap

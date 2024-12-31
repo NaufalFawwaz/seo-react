@@ -25,7 +25,7 @@ const SpiderMan2 = () => {
           content="Resident Evil 2 brings back the horror of Raccoon City. Play as Leon and Claire to uncover the secrets of the Umbrella Corporation while surviving a zombie apocalypse."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/spiderman-2" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/spiderman-2" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Spider-Man 2</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">
@@ -45,7 +45,7 @@ const SpiderMan2 = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Spider-Man 2*</span> adalah game aksi petualangan dunia terbuka yang
+            <span className="font-medium">Spider-Man 2</span> adalah game aksi petualangan dunia terbuka yang
             menghadirkan dua pahlawan superhero legendaris, Peter Parker dan Miles Morales. Pemain dapat mengendalikan
             kedua karakter ini untuk melawan ancaman baru yang muncul di kota New York. Dengan grafis memukau dan dunia
             terbuka yang luas, game ini menawarkan pengalaman menjadi Spider-Man dalam segala hal, termasuk kemampuan
@@ -56,7 +56,7 @@ const SpiderMan2 = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Spider-Man 2*</span>, pemain mengendalikan dua Spider-Men yang berbeda—Peter
+            Dalam <span className="font-medium">Spider-Man 2</span>, pemain mengendalikan dua Spider-Men yang berbeda—Peter
             Parker dan Miles Morales—yang bekerja sama untuk melawan ancaman besar yang muncul di New York. Musuh utama
             mereka kali ini adalah Venom, yang membawa kehancuran dan kekacauan ke kota. Dengan dunia terbuka yang luas,
             pemain dapat menjelajahi setiap sudut kota, melakukan misi utama maupun sampingan, dan bertarung melawan musuh-musuh

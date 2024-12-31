@@ -25,7 +25,7 @@ const WatchDogs = () => {
           content="Resident Evil 2 brings back the horror of Raccoon City. Play as Leon and Claire to uncover the secrets of the Umbrella Corporation while surviving a zombie apocalypse."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/watch-dog-legion" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/watch-dog-legion" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Watch Dogs: Legion</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">
@@ -45,7 +45,7 @@ const WatchDogs = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Watch Dogs: Legion*</span> adalah game open-world yang memungkinkan pemain
+            <span className="font-medium">Watch Dogs: Legion</span> adalah game open-world yang memungkinkan pemain
             untuk merekrut dan mengendalikan berbagai karakter di sebuah London dystopian. Pemain dapat merancang taktik
             melalui berbagai kemampuan unik setiap karakter yang dapat direkrut, memungkinkan pendekatan permainan yang sangat
             bervariasi. Dalam dunia yang penuh pengawasan dan teknologi canggih, pemain akan membangun sebuah perlawanan
@@ -56,7 +56,7 @@ const WatchDogs = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Watch Dogs: Legion*</span>, pemain dapat mengendalikan hampir setiap
+            Dalam <span className="font-medium">Watch Dogs: Legion</span>, pemain dapat mengendalikan hampir setiap
             karakter di dunia terbuka London. Pemain dapat merekrut siapa saja yang dijumpai di jalanan untuk bergabung
             dalam pasukan perlawanan, berperang melawan penguasa otoriter yang mendominasi kota. Berbagai gaya bermain dapat
             dipilih, mulai dari pendekatan diam-diam hingga pertempuran terbuka, dengan setiap keputusan yang diambil akan

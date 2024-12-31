@@ -25,7 +25,7 @@ const Turismo7 = () => {
           content="Gran Turismo 7 offers the most realistic driving experience on PS5, with a wide range of cars, tracks, and racing modes. Perfect for both simulation and arcade racing fans."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/gran-turismo-7" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/gran-turismo-7" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Gran Turismo 7</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">
@@ -45,7 +45,7 @@ const Turismo7 = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Gran Turismo 7*</span> adalah game balap yang membawa pengalaman simulasi
+            <span className="font-medium">Gran Turismo 7</span> adalah game balap yang membawa pengalaman simulasi
             berkendara realistis dengan berbagai pilihan mobil dan trek dari seluruh dunia. Dengan grafis yang memukau
             dan fisika yang mendalam, game ini memberikan pengalaman balap yang sangat otentik bagi para penggemar mobil
             dan balapan. Pemain dapat menikmati berbagai mode balap, termasuk mode kompetitif yang menguji keterampilan
@@ -55,7 +55,7 @@ const Turismo7 = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Gran Turismo 7*</span>, pemain dapat menikmati berbagai mode balap,
+            Dalam <span className="font-medium">Gran Turismo 7</span>, pemain dapat menikmati berbagai mode balap,
             mulai dari balap sirkuit profesional hingga balap jalanan penuh tantangan. Dengan ribuan mobil yang bisa dikendarai,
             game ini menggabungkan elemen simulasi dengan elemen arcade, memberikan pengalaman balap yang dapat dinikmati oleh
             pemain dari berbagai tingkat keahlian. Setiap mobil terasa berbeda, dengan kontrol yang sangat presisi dan responsif,

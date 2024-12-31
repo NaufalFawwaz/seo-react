@@ -25,7 +25,7 @@ const RE3 = () => {
           content="Resident Evil 2 brings back the horror of Raccoon City. Play as Leon and Claire to uncover the secrets of the Umbrella Corporation while surviving a zombie apocalypse."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/resident-evil-3" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/resident-evil-3" />
       </Helmet>
       <h1 className="text-3xl font-bold text-center mb-2">Resident Evil 3</h1>
       <p className="text-lg text-gray-600 text-center mb-6 italic">
@@ -45,7 +45,7 @@ const RE3 = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Resident Evil 3*</span> adalah remake dari game survival horror klasik yang
+            <span className="font-medium">Resident Evil 3</span> adalah remake dari game survival horror klasik yang
             membawa pemain kembali ke Raccoon City, kali ini dengan ancaman yang lebih besar dan musuh yang lebih
             mematikan. Dengan grafis yang ditingkatkan dan gameplay yang diperbarui, game ini menawarkan pengalaman
             horor yang mendalam. Pemain akan berhadapan dengan Nemesis, makhluk mengerikan yang diciptakan untuk
@@ -56,7 +56,7 @@ const RE3 = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Resident Evil 3*</span>, pemain mengikuti kisah Jill Valentine, seorang
+            Dalam <span className="font-medium">Resident Evil 3</span>, pemain mengikuti kisah Jill Valentine, seorang
             anggota S.T.A.R.S., yang berjuang untuk bertahan hidup di tengah teror kota yang dilanda wabah zombie.
             Musuh utamanya adalah Nemesis, makhluk biogenetik yang terprogram untuk mengejar dan membunuh setiap anggota
             S.T.A.R.S. Pemain harus bertahan hidup sambil mengungkap misteri gelap yang tersembunyi di balik eksperimen

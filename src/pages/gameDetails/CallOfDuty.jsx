@@ -13,7 +13,7 @@ const CallOfDuty = () => {
         <meta property="og:title" content="Call of Duty: Modern Warfare III - The Epic Conclusion" />
         <meta property="og:description" content="Experience the epic conclusion of the Modern Warfare trilogy. Join Soap MacTavish and Captain Price in their final mission to stop global terrorism." />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/call-of-duty-modern-warfare-III" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/call-of-duty-modern-warfare-III" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center mb-2">Call of Duty: Modern Warfare III</h1>
@@ -34,7 +34,7 @@ const CallOfDuty = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Call of Duty: Modern Warfare 3*</span> adalah game tembak-menembak FPS
+            <span className="font-medium">Call of Duty: Modern Warfare 3</span> adalah game tembak-menembak FPS
             yang menjadi penutup dari trilogi Modern Warfare. Dengan mode kampanye yang intens dan multiplayer yang
             penuh aksi, game ini menawarkan pengalaman perang modern yang luar biasa dengan grafis dan mekanika
             permainan yang disempurnakan. Pemain akan terlibat dalam misi-misi berbahaya yang melibatkan pasukan
@@ -46,7 +46,7 @@ const CallOfDuty = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Call of Duty: Modern Warfare 3*</span>, pemain mengikuti kisah
+            Dalam <span className="font-medium">Call of Duty: Modern Warfare 3</span>, pemain mengikuti kisah
             Soap MacTavish, Captain Price, dan tim operasi khusus lainnya yang berusaha menghentikan ancaman global.
             Melalui berbagai misi yang menegangkan di seluruh dunia, mereka berusaha untuk melawan teroris yang
             ingin menguasai dunia. Pemain akan berperan sebagai anggota tim elite yang terlibat dalam operasi-operasi

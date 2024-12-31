@@ -25,7 +25,7 @@ const RE2 = () => {
           content="Resident Evil 2 brings back the horror of Raccoon City. Play as Leon and Claire to uncover the secrets of the Umbrella Corporation while surviving a zombie apocalypse."
         />
         <meta property="og:image" content="URL_of_your_image" />
-        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/info/resident-evil-2" />
+        <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/games/resident-evil-2" />
       </Helmet>
 
       <h1 className="text-3xl font-bold text-center mb-2">Resident Evil 2</h1>
@@ -46,7 +46,7 @@ const RE2 = () => {
             <FaFeatherAlt className="text-xl" /> Game Description
           </h2>
           <p className="text-lg xl:text-xl mb-8 max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            <span className="font-medium">*Resident Evil 2*</span> adalah remake dari game survival horror klasik yang
+            <span className="font-medium">Resident Evil 2</span> adalah remake dari game survival horror klasik yang
             membawa pemain kembali ke Raccoon City, tempat terjadinya wabah zombie. Dengan grafis yang ditingkatkan dan
             gameplay yang lebih modern, game ini mengembalikan elemen horor dan ketegangan yang tak lekang oleh waktu.
             Pemain mengikuti petualangan Leon S. Kennedy dan Claire Redfield yang berusaha untuk bertahan hidup di tengah
@@ -57,7 +57,7 @@ const RE2 = () => {
             <FaFeatherAlt className="text-xl" /> Synopsis
           </h2>
           <p className="text-lg xl:text-xl max-w-[700px] xl:max-w-[800px] text-gray-700 leading-relaxed text-justify">
-            Dalam <span className="font-medium">*Resident Evil 2*</span>, pemain mengikuti kisah Leon S. Kennedy dan Claire
+            Dalam <span className="font-medium">Resident Evil 2</span>, pemain mengikuti kisah Leon S. Kennedy dan Claire
             Redfield yang berusaha untuk bertahan hidup di tengah wabah zombie yang menghancurkan kota Raccoon. Mereka bekerja
             sama untuk memecahkan misteri dibalik insiden yang terjadi di laboratorium Umbrella Corporation, sambil berusaha
             untuk keluar dari kota yang dipenuhi dengan monster mengerikan. Dengan gameplay yang menakutkan dan suasana yang
