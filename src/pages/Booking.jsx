@@ -131,14 +131,23 @@ const Booking = () => {
   return (
     <div className="flex flex-col items-center p-8 bg-gray-50 min-h-screen">
       <Helmet>
-        <title>Game Console Booking - Online Booking System</title>
-        <meta name="description" content="Book your favorite game console (PC ROG, PS5, Xbox) online. Choose your time slot and date with ease. Secure your booking today!" />
-        <meta name="keywords" content="game console booking, Filkom UB Game Corner, online booking, PS5, Xbox, PC ROG, game reservation, booking system, gaming" />
-        <meta name="author" content="Your Company Name" />
-        <meta property="og:title" content="Game Console Booking - Online Booking System" />
-        <meta property="og:description" content="Book your favorite game console online. Secure your time slots and enjoy uninterrupted gaming." />
-        <meta property="og:image" content="URL_of_your_image" />
+        <title>Booking Konsol Game Terbaik | Reservasi Mudah dan Cepat</title>
+        <meta
+          name="description"
+          content="Pesan konsol game favorit Anda seperti PC ROG, PS5, Xbox, dan Pump It Up dengan mudah. Pilih tanggal dan waktu yang sesuai untuk pengalaman bermain terbaik."
+        />
+        <meta
+          name="keywords"
+          content="Booking Konsol Game, Filkom UB Game Corner, Reservasi Game Console, PS5 Booking, Xbox Booking, PC ROG Reservation, Pump It Up Booking, Pemesanan Game Console"
+        />
+        <meta property="og:title" content="Booking Konsol Game Terbaik | Reservasi Mudah dan Cepat" />
+        <meta
+          property="og:description"
+          content="Pesan konsol game favorit Anda seperti PC ROG, PS5, Xbox, dan Pump It Up dengan mudah. Pilih tanggal dan waktu yang sesuai untuk pengalaman bermain terbaik."
+        />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://filkom-ub-game-corner-react.vercel.app/book+" />
+        <link rel="canonical" href="https://filkom-ub-game-corner-react.vercel.app/book+" />
       </Helmet>
 
       <h2 className="text-4xl font-bold text-blue-600 mb-8 text-center">Game Console Booking</h2>
