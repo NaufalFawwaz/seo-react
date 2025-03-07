@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC04BACtNZKUYS9UEXFwbBF21U83JAkUjQ",
-  authDomain: "gamecorner-dc6a0.firebaseapp.com",
-  projectId: "gamecorner-dc6a0",
-  storageBucket: "gamecorner-dc6a0.firebasestorage.app",
-  messagingSenderId: "335577997036",
-  appId: "1:335577997036:web:2dc7cd53e0dbb87411cfc9"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
