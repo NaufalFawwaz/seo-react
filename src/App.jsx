@@ -21,7 +21,7 @@ function App() {
       <Route element={<ScrollToTop />}>
         <Route element={<ContentRoutes />}>
           <Route path="/" element={<Home />} />
-          <Route path="/book+" element={<Booking />} />
+          <Route path="/booking" element={<Booking />} />
           <Route path="/games" element={<InfoCollection />} />
           <Route path="/games/assassins-creed-mirage" element={<AssassinCreed />} />
           <Route path="/games/god-of-war-ragnarok" element={<GodOfWar />}/>
