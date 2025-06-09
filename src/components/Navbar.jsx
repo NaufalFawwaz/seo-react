@@ -18,7 +18,7 @@ const navItem = [
   },
   {
     name: 'Book+',
-    url: '/book+'
+    url: '/booking'
   },
   {
     name: 'Games',
