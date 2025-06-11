@@ -34,7 +34,7 @@ const GTAV = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/QkkoHAzjnUs"
+                src="https://www.youtube.com/embed/QkkoHAzjnUs"
                 title="Grand Theft Auto V Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

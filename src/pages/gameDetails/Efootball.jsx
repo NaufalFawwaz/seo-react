@@ -34,7 +34,7 @@ const Efootball = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/BdyXsZMPjWo?si=b4qH21oAxZ5dJfHT"
+                src="https://www.youtube.com/embed/BdyXsZMPjWo?si=b4qH21oAxZ5dJfHT"
                 title="E-Football 2024 Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

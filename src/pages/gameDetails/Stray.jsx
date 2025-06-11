@@ -34,7 +34,7 @@ const Stray = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/u84hRUQlaio?si=S1yVnq-LNtwYO0jI"
+                src="https://www.youtube.com/embed/u84hRUQlaio?si=S1yVnq-LNtwYO0jI"
                 title="Stray Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

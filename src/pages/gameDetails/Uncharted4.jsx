@@ -34,7 +34,7 @@ const Uncharted4 = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/hh5HV4iic1Y?si=uAVb1LmFRJch3m6m"
+                src="https://www.youtube.com/embed/hh5HV4iic1Y?si=uAVb1LmFRJch3m6m"
                 title="Uncharted 4 Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

@@ -34,7 +34,7 @@ const GOW = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/K0u_kAWLJOA"
+                src="https://www.youtube.com/embed/K0u_kAWLJOA"
                 title="God of War Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

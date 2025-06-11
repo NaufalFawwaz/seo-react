@@ -34,7 +34,7 @@ const EldenRing = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/E3Huy2cdih0"
+                src="https://www.youtube.com/embed/E3Huy2cdih0"
                 title="Elden Ring Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

@@ -34,7 +34,7 @@ const StreetFight6 = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/U747IQXEoto?si=ncTO3NbPS9Ey_o8N"
+                src="https://www.youtube.com/embed/U747IQXEoto?si=ncTO3NbPS9Ey_o8N"
                 title="Street Fighter 6 Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

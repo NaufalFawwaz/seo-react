@@ -34,7 +34,7 @@ const Ghost = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/MUz539AeC5Y?si=HLFPRV1f9aHIBDKS"
+                src="https://www.youtube.com/embed/MUz539AeC5Y?si=HLFPRV1f9aHIBDKS"
                 title="Ghost of Tsushima Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

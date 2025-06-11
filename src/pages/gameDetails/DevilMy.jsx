@@ -20,7 +20,7 @@ const DevilMy = () => {
         Experience the ultimate action game with Nero, Dante, and V.
       </p>
       <iframe
-        src="https://youtube.com/embed/k8d8OMM-XpA?si=0FUBCQSH-WRXcPdF"
+        src="https://www.youtube.com/embed/k8d8OMM-XpA?si=0FUBCQSH-WRXcPdF"
         title="Devil May Cry 5 Trailer"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

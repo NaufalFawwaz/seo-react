@@ -34,7 +34,7 @@ const ItTakesTwo = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/ohClxMmNLQQ"
+                src="https://www.youtube.com/embed/ohClxMmNLQQ"
                 title="It Takes Two Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

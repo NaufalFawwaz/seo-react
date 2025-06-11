@@ -34,7 +34,7 @@ const ModernW2 = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/ztjfwecrY8E?si=wc6Qd8eDWTJ_m5Y9"
+                src="https://www.youtube.com/embed/ztjfwecrY8E?si=wc6Qd8eDWTJ_m5Y9"
                 title="Modern Warfare II Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

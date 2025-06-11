@@ -36,7 +36,7 @@ const MilesMorales = () => {
             </p>
 
             <iframe
-                src="https://youtube.com/embed/ymEnvJSFqfw?si=TZaQBIazIgQSSleM"
+                src="https://www.youtube.com/embed/ymEnvJSFqfw?si=TZaQBIazIgQSSleM"
                 title="Miles Morales Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
